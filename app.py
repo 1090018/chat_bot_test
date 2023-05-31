@@ -19,7 +19,7 @@ app = Flask(__name__)
 CORS(app)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('你的Channel Access Token')
+line_bot_api = LineBotApi('zBJ/wUyLC74E5hXEobjc6s5hGiiH4Tm4dIdV4sbQrcX8azehI5MaZF9sG9sZgXUEQ+SFRzcaiu9TF7vOsinCn+0DFEhfbuWKEDArVssCnzmf208uG2Fcfn53vKqEPEGWMHUvyydFTO6eYYvQvdTxYQdB04t89/1O/w1cDnyilFU=')
 # 必須放上自己的Channel Secret
 handler = WebhookHandler('你的Channel Secret')
 
